@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.UnSeg {
+  animation-delay: 1s; }
+
+.UnPunDos {
+  animation-delay: 1.2s; }
+
+.UnPunSeis {
+  animation-delay: 1.6s; }
+
+.UnPunCua {
+  animation-delay: 1.4s; }
+
+.UnPunOch {
+  animation-delay: 1.8s; }
+
+.DosSeg {
+  animation-delay: 2s; }
+
+.DosDos {
+  animation-delay: 2.2s; }
+
+.DosCua {
+  animation-delay: 2.4s; }
+
+.blanco {
+  background-color: white; }
+
+.fondo-main {
+  background-color: #292525; }
+
+.blanco-claro {
+  background-color: #e4dcdc; }
+
+.gris-oscuro {
+  background-color: #3d3939; }
+
+.black {
+  color: black; }
+
+.white {
+  color: white; }
+
+/*EXTENDS*/
+main .felxx .grid-seccion .card .card-body .comprar-ahora {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+header {
+  background-color: #292525;
+  height: 80px; }
+  header .cabeza {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    header .cabeza div {
+      height: 80px;
+      display: flex;
+      align-items: center;
+      margin-left: 30px; }
+      header .cabeza div a {
+        color: white;
+        text-decoration: none; }
+        header .cabeza div a #titulo {
+          font-size: 27px; }
+    header .cabeza div {
+      height: 80px; }
+      header .cabeza div a {
+        color: white;
+        text-decoration: none; }
+        header .cabeza div a h2 {
+          color: white; }
+    header .cabeza div .div5 {
+      padding-left: 50px;
+      padding-top: 13px; }
+      header .cabeza div .div5 a {
+        text-decoration: none;
+        color: white;
+        transition: transform; }
+      header .cabeza div .div5 a:hover {
+        color: rgba(255, 166, 0, 0.993); }
+    header .cabeza div .indexx {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+      margin-right: 46px; }
+      header .cabeza div .indexx .div6 {
+        border: 2px solid rgba(255, 166, 0, 0.993);
+        border-radius: 5px;
+        background-color: rgba(255, 166, 0, 0.993);
+        height: 30px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        margin-top: 9px; }
+        header .cabeza div .indexx .div6 a {
+          text-decoration: none;
+          color: black;
+          padding-top: 12px; }
+        header .cabeza div .indexx .div6 a:hover {
+          color: white; }
+    header .cabeza div .bi-brightness-high-fill {
+      color: white; }
+    header .cabeza div #luna {
+      display: none; }
+
+/*EXTENDS*/
+main .felxx .grid-seccion .card .card-body .comprar-ahora {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main {
+  background-color: #292525;
+  border-top: 1px solid grey;
+  padding-top: 50px; }
+  main .felxx {
+    display: flex;
+    justify-content: center; }
+    main .felxx .grid-seccion {
+      display: grid;
+      grid-template-columns: 330px 330px 330px;
+      grid-template-rows: 400px 400px;
+      column-gap: 15px;
+      row-gap: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-bottom: 60px; }
+      main .felxx .grid-seccion .grid:hover {
+        border: 1px solid black;
+        box-shadow: 0px 0px 5px 2px black; }
+      main .felxx .grid-seccion .card .card-body {
+        margin-left: 5px; }
+        main .felxx .grid-seccion .card .card-body h5 {
+          margin-top: 5px; }
+        main .felxx .grid-seccion .card .card-body h6 {
+          color: white;
+          margin-top: 5px; }
+        main .felxx .grid-seccion .card .card-body .comprar-ahora {
+          border-radius: 5px;
+          background-color: #eba524;
+          height: 34px;
+          width: 98%;
+          margin-top: 28px;
+          margin-left: 2px; }
+          main .felxx .grid-seccion .card .card-body .comprar-ahora .boton {
+            text-decoration: none;
+            border: none;
+            outline: none;
+            background-color: #eba524; }
+          main .felxx .grid-seccion .card .card-body .comprar-ahora a {
+            text-decoration: none; }
+            main .felxx .grid-seccion .card .card-body .comprar-ahora a h6 {
+              margin-top: 3px;
+              color: white;
+              font-size: 22px; }
+            main .felxx .grid-seccion .card .card-body .comprar-ahora a h6:hover {
+              color: white; }
+        main .felxx .grid-seccion .card .card-body .comprar-ahora:hover {
+          background-color: #eba524; }
+        main .felxx .grid-seccion .card .card-body .bajar {
+          margin-top: 12px;
+          margin-left: 2px; }
+        main .felxx .grid-seccion .card .card-body .bi-clock-fill {
+          margin-top: -4px;
+          margin-right: 3px; }
+        main .felxx .grid-seccion .card .card-body .horizontal {
+          display: flex;
+          flex-direction: row; }
+          main .felxx .grid-seccion .card .card-body .horizontal .px {
+            margin-left: 5px; }
+  main #carrito {
+    background-color: white; }

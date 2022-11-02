@@ -1,0 +1,20 @@
+@import "../base/variables";
+
+
+/*EXTENDS*/
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flexDos{
+    display: flex;
+    justify-content: center;
+}
+
+%flexTres{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,83 @@
+@import "../base/variables";
+@import "../base/maps-extends";
+header{
+    background-color: rgb(41, 37, 37);
+    height: 80px;
+    .cabeza{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        div{
+            height: 80px;
+            display: flex;
+            align-items: center;
+            margin-left: 30px;
+            a{
+                color: white;
+                text-decoration: none;
+                #titulo{
+                    font-size: 27px;
+                }
+            }
+        }
+        div{
+            height: 80px;
+            a{
+                color: white;
+                text-decoration: none;
+                h2{
+                    color: white;
+                }
+            }
+        }
+        div{
+            .div5{
+                padding-left: 50px;
+                padding-top: 13px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    transition: transform;
+                }
+                a:hover{
+                    color: rgba(255, 166, 0, 0.993);
+                }
+            }
+            .indexx{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 10px;
+                margin-right: 46px;
+                .div6{
+                    border: 2px solid rgba(255, 166, 0, 0.993); 
+                    border-radius: 5px;
+                    background-color: rgba(255, 166, 0, 0.993);
+                    height: 30px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: center;
+                    margin-left: 50px;
+                    margin-top: 9px;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        padding-top: 12px;
+                    }
+                    a:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+        div{
+            .bi-brightness-high-fill{
+                
+                color: white;
+            }
+            #luna{
+                display: none;
+            }
+        }
+    }
+    
+}
