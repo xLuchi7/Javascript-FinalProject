@@ -9,78 +9,114 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <title>Aprende a Programar | Precios Ideales</title>
-    <meta name="description" content="Compra productos gamer a precios increibles con envio gratis a toda la argentina.">
-    <meta name="keywords" content="venta, venta gamer, productos, venta de productos, envios, envios gratis, argentina, comprar, comprar productos">
-    <meta property="og:type" content="E-commerce">
-    <meta property="og:title" content="Venta de productos Gamer | Envios a todo el pais">
+    <title>Aprende a Programar | Ofertas Ideales</title>
+    <meta name="description" content="Aprende a programar con Lean 2 Code! Cursos de programacion a precios Increibles!">
+    <meta name="keywords" content="programacion, programar, code, coding, venta de cursos, cursos, cursos online, cursos de programacion, Javascript, Java, ReactJS, HTML, CSS, C++, Python">
+    <meta property="og:type" content="Cursos Online">
+    <meta property="og:title" content="Aprende a Programar | Ofertas Ideales">
     <meta property="og.url" content="https://ventagamer.netlify.app/index.html">
-    <meta property="og:description" content="Compra productos gamer a precios increibles con envio gratis a toda la argentina.">
+    <meta property="og:description" content="Aprende a programar con Lean 2 Code! Cursos de programacion a precios Increibles!">
 </head>
   <body>
     <header id="header">
       <div class="cabeza">
-        <div> 
+        <div>
+          <!--Titulo-->
           <a href="./index.html"><h1 id="titulo">LEARN 2 CODE</h1></a>
         </div>
-        <div>
-          <a href="./index.html"><h5></h5></a>
-        </div>
+        
         <div>
           <div class="div5">
+            <!--Iniciar Sesion-->
             <nav>
                 <a href="./pages/iniciar-sesion.html"><p id="i-sesion">Iniciar Sesion</p></a>
             </nav>
         </div>
         <div class="indexx">
-          <div class="div6">
+          <div id="registrarse" class="div6">
+            <!--Registrarse-->
             <a href="./pages/registrarse.html"><p>Registrarse</p></a>
           </div>
         </div>
         <div>
           <div>
-            <a id="mode" class="btn btn-outline-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill" id="sol" viewBox="0 0 16 16">
+            <!--Boton Light/Dark Mode -- Sol-->
+            <a id="mode" class="btn btn-outline-secondary sol" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill" id="sol" viewBox="0 0 16 16">
               <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
             </svg>
+            <!--Boton Light/Dark Mode -- Luna-->
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-fill" id="luna" viewBox="0 0 16 16">
               <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
             </svg></a>
+          </div>
+          <div id="no-regsitrado">
+            <!--Icono que aparece unicamente cuando estas registrado-->
+            <div id="persona" class="dropdown">
+              <button id="nop-regsitrado" class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a id="mis" class="dropdown-item chau" href="#">Mis Cursos</a></li>
+                <li><a id="cerrar" class="dropdown-item" href="./index.html">Cerrar Sesion</a></li>
+              </ul>
+            </div>
+             <!--Mismo Icono que aparece unicamente cuando estas registrado, este aparece cuando el color de fondo es blanco-->
+            <div id="persona2" class="dropdown">
+              <button id="nop-regsitrado" class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="black" class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a id="miss" class="dropdown-item chau" href="#">Mis Cursos</a></li>
+                <li><a id="cerrarr" class="dropdown-item" href="./index.html">Cerrar Sesion</a></li>
+              </ul>
+            </div> 
           </div>
         </div>
       </div>
     </header>
     <main id="principal" class="blanco">
+      <!--Todos los cursos de programacion disponibles-->
       <div class="felxx">
         <section id="gridd" class="grid-seccion animate__animated animate__zoomIn UnSeg">
+          <!--<div id="poner">
+             NO QUISE USAR ESTE METODO PERO LO DEJO PARA DEMOSTRAR QUE SE COMO SE HACE
+          </div>-->
+          <!--Tarjetas de los cursos disponibles-->
           <div id="1" class="card grid gris-oscuro" style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title white">Curso JavaScript</h5>
+              <h5 class="card-title titulo-curso white">Curso JavaScript</h5>
               <h6 class="card-subtitle mb-2 text-muted bajar">Inicia: 25/11/2022</h6>
               <h6 class="card-subtitle mb-2 text-muted bajar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
               </svg> 08:00 a 10:00Hs</h6>
-              <p class="card-text white">En este curso de JavaScript aprenderas todo lo basico para arrnacar en programacion con la mejor base.</p>
+              <p class="card-text white">En este curso de JavaScript aprenderas todo lo basico y necesario para crear un sitio web interactivo y dinamico.</p>
               <div class="horizontal">
                 <h5 class="card-title white">$</h5>
                 <h5 class="card-title white precio" id="uno">30000 </h5>
                 <h5 class="card-title white px">ARS</h5>
               </div>
               <div class="comprar-ahora">
-                <!--<a href=""><h6 class="boton">Comprar ahora</h6></a>-->
                 <button class="boton">Comprar ahora</button>
               </div>
             </div>
           </div>
           <div id="2" class="card grid gris-oscuro" style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title white">Curso HTML + CSS</h5>
-              <h6 class="card-subtitle mb-2 text-muted bajar">Inicia: 25/11/2022</h6>
+              <h5 class="card-title titulo-curso white">Curso HTML + CSS</h5>
+              <h6 class="card-subtitle mb-2 text-muted bajar">Inicia: 28/11/2022</h6>
               <h6 class="card-subtitle mb-2 text-muted bajar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-              </svg> 08:00 a 10:00Hs</h6>
-              <p class="card-text white">En este curso de HTML y CSS aprenderas todo lo basico para arrnacar en programacion con la mejor base.</p>
+              </svg> 10:00 a 12:00Hs</h6>
+              <p class="card-text white">En este curso de HTML y CSS aprenderas todo lo necesario para darle forma, estilar y hacer responsive todo tu sitio web.</p>
               <div class="horizontal">
                 <h5 class="card-title white">$</h5>
                 <h5 class="card-title white precio">25000 </h5>
@@ -93,12 +129,12 @@
           </div>
           <div id="3" class="card grid gris-oscuro" style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title white">Curso React</h5>
-              <h6 class="card-subtitle mb-2 text-muted bajar">Inicia: 25/11/2022</h6>
+              <h5 class="card-title titulo-curso white">Curso ReactJS</h5>
+              <h6 class="card-subtitle mb-2 text-muted bajar">Inicia: 07/12/2022</h6>
               <h6 class="card-subtitle mb-2 text-muted bajar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
               </svg> 08:00 a 10:00Hs</h6>
-              <p class="card-text white">En este curso de React aprenderas todo lo basico para arrnacar en programacion con la mejor base.</p>
+              <p class="card-text white">ReactJS es una biblioteca de JS que facilita crear interfaces de usuario interactivas y dinamicas para tu sitio web. </p>
               <div class="horizontal">
                 <h5 class="card-title white">$</h5>
                 <h5 class="card-title white precio">32000 </h5>
@@ -111,12 +147,12 @@
           </div>
           <div id="4" class="card grid gris-oscuro" style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title white">Curso C++</h5>
-              <h6 class="card-subtitle mb-2 text-muted bajar">Inicia: 25/11/2022</h6>
+              <h5 class="card-title titulo-curso white">Curso C++</h5>
+              <h6 class="card-subtitle mb-2 text-muted bajar">Inicia: 22/11/2022</h6>
               <h6 class="card-subtitle mb-2 text-muted bajar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-              </svg> 08:00 a 10:00Hs</h6>
-              <p class="card-text white">En este curso de C++ aprenderas todo lo basico para arrnacar en programacion con la mejor base.</p>
+              </svg> 17:00 a 19:00Hs</h6>
+              <p class="card-text white">En este curso aprenderas todo lo basico de C++. Podes usarlo para crear juegos, aplicaciones moviles, programacion backend y mas.</p>
               <div class="horizontal">
                 <h5 class="card-title white">$</h5>
                 <h5 class="card-title white precio">22000 </h5>
@@ -129,12 +165,12 @@
           </div>
           <div id="5" class="card grid gris-oscuro" style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title white">Curso Python</h5>
-              <h6 class="card-subtitle mb-2 text-muted bajar">Inicia: 25/11/2022</h6>
+              <h5 class="card-title titulo-curso white">Curso Python</h5>
+              <h6 class="card-subtitle mb-2 text-muted bajar">Inicia: 02/01/2023</h6>
               <h6 class="card-subtitle mb-2 text-muted bajar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
               </svg> 08:00 a 10:00Hs</h6>
-              <p class="card-text white">En este curso de Python aprenderas todo lo basico para arrnacar en programacion con la mejor base.</p>
+              <p class="card-text white">En este curso aprenderas todo lo basico de Python. Podes usarlo para desarrollo de software, backend, ciencia de datos y mas.</p>
               <div class="horizontal">
                 <h5 class="card-title white">$</h5>
                 <h5 class="card-title white precio">28000 </h5>
@@ -147,12 +183,12 @@
           </div>
           <div id="6" class="card grid gris-oscuro" style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title white">Curso Java</h5>
-              <h6 class="card-subtitle mb-2 text-muted bajar">Inicia: 25/11/2022</h6>
+              <h5 class="card-title titulo-curso white">Curso Java</h5>
+              <h6 class="card-subtitle mb-2 text-muted bajar">Inicia: 29/11/2022</h6>
               <h6 class="card-subtitle mb-2 text-muted bajar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-              </svg> 08:00 a 10:00Hs</h6>
-              <p class="card-text white">En este curso de Java aprenderas todo lo basico para arrnacar en programacion con la mejor base.</p>
+              </svg> 17:00 a 19:00Hs</h6>
+              <p class="card-text white">En este curso aprenderas todo lo basico de Java. Podes usarlo para crear juegos, todo tipo de aplicaciones y mas.</p>
               <div class="horizontal">
                 <h5 class="card-title white">$</h5>
                 <h5 class="card-title white precio">24000 </h5>
@@ -165,29 +201,33 @@
           </div>
         </section>
       </div>
-      <div class="blanco">
-        <h4>Carrito de Descuento:</h4>
+    </main>
+    <footer id="footer">
+      <div class="carrito">
+        <!--Carrito de descuento (fue una idea mia lo del descuento pero me parece que esta bueno)-->
+        <h4 id="titulo-carrito" class="espacio hola">Carrito de Descuento:</h4>
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Descuento</th>
-                    <th scope="col">Precio</th>
+                    <th class="hola" scope="col">Nombre</th>
+                    <th class="hola" scope="col">Descuento</th>
+                    <th class="hola" scope="col">Precio</th>
                 </tr>
             </thead>
             <tbody id="carrito">
-                <!-- aqui tabla carrito -->
+                <!--Aca va la tabla de cursos comprados -->
             </tbody>
         </table>
-        <h4 id="total">Total a pagar $:</h4>
-        <button id="finalizar"><h3>Comprar</h3></button>
+        <!--Total a pagar con su respectivo boton-->
+        <h4 class="hola" id="total">Total a Pagar: $</h4>
+        <button class="btn btn-warning" id="terminar">Comprar ahora</button>
       </div>
-      <!--<div id="carrito">
-        
-      </div>-->
-    </main>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./JavaScript.js"></script>
+
   </body>
 </html>

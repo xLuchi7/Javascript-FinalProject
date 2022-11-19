@@ -45,10 +45,131 @@
 .white {
   color: white; }
 
+.gris-iniciar {
+  background-color: #292525; }
+
+.blanco-iniciar {
+  background-color: white; }
+
+.hola {
+  color: white; }
+
+.chau {
+  color: black; }
+
+.cambiar-idioma {
+  height: 50px;
+  width: 50px; }
+
+.check {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  margin-top: 4px;
+  display: none; }
+
+.cross {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  margin-top: 4px;
+  display: none; }
+
+.bien {
+  color: #07b807;
+  font-style: italic;
+  display: none;
+  margin-top: 5px;
+  margin-left: 3px; }
+
+.mal {
+  color: red;
+  font-style: italic;
+  display: none;
+  margin-top: 5px;
+  margin-left: 3px; }
+
+.alerta {
+  text-decoration: none;
+  color: white; }
+
+.alerta:hover {
+  color: white; }
+
+/*#contra-valid{
+    color: rgb(7, 184, 7);
+    font-style: italic;
+    display: none;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+#contra-no-valid{
+    color: red;
+    font-style: italic;
+    display: none;
+    margin-top: 5px;
+    margin-left: 3px;
+}*/
+.derecho {
+  display: flex;
+  flex-direction: row; }
+
+#cerrar {
+  color: red; }
+
+#cerrar:hover {
+  text-decoration: none;
+  background-color: whitesmoke; }
+
+#cerrarr {
+  color: red; }
+
+#cerrarr:hover {
+  text-decoration: none;
+  background-color: whitesmoke; }
+
+#mis {
+  color: black; }
+
+#mis:hover {
+  text-decoration: none;
+  background-color: whitesmoke; }
+
+#miss {
+  color: black; }
+
+#miss:hover {
+  text-decoration: none;
+  background-color: whitesmoke; }
+
+#nop-registrado {
+  background-color: #292525;
+  color: white;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 100px; }
+
+#persona2 {
+  display: none;
+  margin-top: 38px; }
+
+#persona {
+  margin-top: 38px; }
+
 /*EXTENDS*/
 main .felxx .grid-seccion .card .card-body .comprar-ahora {
   display: flex;
   justify-content: center;
+  align-items: center; }
+
+main .div-inicio-sesion .inicio-card .enter {
+  display: flex;
+  justify-content: center; }
+
+main .div-inicio-sesion {
+  display: flex;
   align-items: center; }
 
 header {
@@ -105,10 +226,31 @@ header {
           padding-top: 12px; }
         header .cabeza div .indexx .div6 a:hover {
           color: white; }
+      header .cabeza div .indexx .nav-item {
+        width: 100%; }
+        header .cabeza div .indexx .nav-item .cambiar-idioma {
+          height: 35px;
+          width: 35px; }
     header .cabeza div .bi-brightness-high-fill {
       color: white; }
     header .cabeza div #luna {
       display: none; }
+
+header .volver-inicio {
+  background-color: #292525;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px; }
+  header .volver-inicio a {
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    transition: transform; }
+    header .volver-inicio a .fuente {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 35px; }
+  header .volver-inicio a:hover {
+    color: rgba(255, 166, 0, 0.993); }
 
 /*EXTENDS*/
 main .felxx .grid-seccion .card .card-body .comprar-ahora {
@@ -116,13 +258,21 @@ main .felxx .grid-seccion .card .card-body .comprar-ahora {
   justify-content: center;
   align-items: center; }
 
+main .div-inicio-sesion .inicio-card .enter {
+  display: flex;
+  justify-content: center; }
+
+main .div-inicio-sesion {
+  display: flex;
+  align-items: center; }
+
 main {
   background-color: #292525;
-  border-top: 1px solid grey;
-  padding-top: 50px; }
+  border-top: 1px solid grey; }
   main .felxx {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    padding-top: 50px; }
     main .felxx .grid-seccion {
       display: grid;
       grid-template-columns: 330px 330px 330px;
@@ -175,5 +325,77 @@ main {
           flex-direction: row; }
           main .felxx .grid-seccion .card .card-body .horizontal .px {
             margin-left: 5px; }
-  main #carrito {
-    background-color: white; }
+
+main .div-inicio-sesion {
+  background-color: #292525;
+  padding-top: 170px;
+  color: white;
+  flex-direction: column; }
+  main .div-inicio-sesion #h2-reg {
+    margin-left: -305px; }
+  main .div-inicio-sesion .iniciar-texto {
+    text-align: center;
+    font-size: 40px; }
+  @media screen and (max-width: 851px) {
+    main .div-inicio-sesion .iniciar-texto {
+      font-size: 32px; } }
+  main .div-inicio-sesion .registrarse-texto {
+    color: white; }
+  @media screen and (max-width: 389px) {
+    main .div-inicio-sesion .registrarse-texto {
+      text-align: center; } }
+  main .div-inicio-sesion .inicio-card {
+    display: flex;
+    flex-direction: column; }
+    main .div-inicio-sesion .inicio-card .correo {
+      padding-top: 124px;
+      margin-bottom: 8px; }
+    @media screen and (max-width: 851px) {
+      main .div-inicio-sesion .inicio-card .correo {
+        padding-right: 00px; } }
+    main .div-inicio-sesion .inicio-card .barra-correo {
+      height: 32px;
+      width: 300px;
+      border: 2px solid grey;
+      border-radius: 5px;
+      padding-left: 5px; }
+    @media screen and (max-width: 851px) {
+      main .div-inicio-sesion .inicio-card .barra-correo {
+        margin-right: 00px; } }
+    main .div-inicio-sesion .inicio-card .contra {
+      padding-top: 50px;
+      margin-bottom: 8px; }
+    @media screen and (max-width: 851px) {
+      main .div-inicio-sesion .inicio-card .contra {
+        margin-left: 00px; } }
+    main .div-inicio-sesion .inicio-card .enter {
+      border: 2px solid rgba(255, 166, 0, 0.993);
+      border-radius: 5px;
+      background-color: rgba(255, 166, 0, 0.993);
+      height: 30px;
+      width: 300px;
+      margin-top: 50px;
+      margin-bottom: 280px;
+      margin-right: 500px; }
+      main .div-inicio-sesion .inicio-card .enter a {
+        text-decoration: none; }
+        main .div-inicio-sesion .inicio-card .enter a p {
+          color: black;
+          transition: transform; }
+        main .div-inicio-sesion .inicio-card .enter a p:hover {
+          color: white; }
+    @media screen and (max-width: 851px) {
+      main .div-inicio-sesion .inicio-card .enter {
+        margin-right: 00px; } }
+
+#footer {
+  background-color: #1f1d1d;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px; }
+  #footer .carrito .espacio {
+    padding-top: 50px; }
+  #footer .carrito #carrito {
+    background-color: #1f1d1d; }
+  #footer .carrito #terminar {
+    margin-top: 10px; }

@@ -1,0 +1,39 @@
+{
+    "cursos": [{
+        "id": 1,
+        "titulo": "Curso JavaScript",
+        "texto": "En este curso de JavaScript aprenderas todo lo basico y necesario para crear un sitio web interactivo y dinamico.",
+        "precio": 30000
+    },
+    {
+        "id": 2,
+        "titulo": "Curso HTML + CSS",
+        "texto": "En este curso de HTML y CSS aprenderas todo lo necesario para darle forma, estilar y hacer responsive todo tu sitio web.",
+        "precio": 25000
+    },
+    {
+        "id": 3,
+        "titulo": "Curso ReactJS",
+        "texto": "ReactJS es una biblioteca de JS que facilita crear interfaces de usuario interactivas y dinamicas para tu sitio web. ",
+        "precio": 32000
+    },
+    {
+        "id": 4,
+        "titulo": "Curso C++",
+        "texto": "En este curso aprenderas todo lo basico de C++. Podes usarlo para crear juegos, aplicaciones moviles, programacion backend y mas.",
+        "precio": 22000
+    },
+    {
+        "id": 5,
+        "titulo": "Curso Python",
+        "texto": "En este curso aprenderas todo lo basico de Python. Podes usarlo para desarrollo de software, backend, ciencia de datos y mas.",
+        "precio": 28000
+    },
+    {
+        "id": 6,
+        "titulo": "Curso Java",
+        "texto": "En este curso aprenderas todo lo basico de Java. Podes usarlo para crear juegos, todo tipo de aplicaciones y mas.",
+        "precio": 24000
+    }
+    ]
+}

@@ -1,12 +1,11 @@
-@import "../base/variables";
 @import "../base/maps-extends";
 main{
     background-color: rgb(41, 37, 37);
     border-top: 1px solid grey;
-    padding-top: 50px;
     .felxx{
         display: flex;
         justify-content: center;
+        padding-top: 50px;
         .grid-seccion{
             display: grid;
             grid-template-columns: 330px 330px 330px;
@@ -83,7 +82,96 @@ main{
             }
         }
     }
-    #carrito{
-        background-color: white;
+}
+main{
+    
+    .div-inicio-sesion{
+        background-color: rgb(41, 37, 37);
+        padding-top: 170px;
+        color: white;
+        @extend %flexTres;
+        flex-direction: column;
+        #h2-reg{
+            margin-left: -305px;
+        }
+        .iniciar-texto{
+            text-align: center;
+            font-size: 40px;
+        }
+        @media screen and (max-width: 851px){
+            .iniciar-texto{
+                font-size: 32px;
+            }
+        }
+        .registrarse-texto{
+            color: white;
+        }
+        @media screen and (max-width: 389px){
+            .registrarse-texto{
+                text-align: center;
+            }
+        }
+        .inicio-card{
+            display: flex;
+            flex-direction: column;
+            .correo{
+                padding-top: 124px;
+                margin-bottom: 8px;
+            }
+            @media screen and (max-width: 851px){
+                .correo{
+                    padding-right: 00px;
+                }
+            }
+            .barra-correo{
+                height: 32px;
+                width: 300px;
+                border: 2px solid grey;
+                border-radius: 5px;
+                padding-left: 5px;
+            }
+            @media screen and (max-width: 851px){
+                .barra-correo{
+                    margin-right: 00px;
+                }
+            }
+            .contra{
+                padding-top: 50px;
+                margin-bottom: 8px;
+            }
+            @media screen and (max-width: 851px){
+                .contra{
+                    margin-left: 00px;
+            
+                }   
+            }
+            .enter{
+                border: 2px solid rgba(255, 166, 0, 0.993); 
+                border-radius: 5px;
+                background-color: rgba(255, 166, 0, 0.993);
+                height: 30px;
+                width: 300px;
+                @extend %flexDos;
+                margin-top: 50px;
+                margin-bottom: 280px;
+                margin-right: 500px;
+                a{
+                    text-decoration: none;
+                    p{
+                        color: black;
+                        transition: transform;
+                    }
+                    p:hover{
+                        color: white;
+                    }
+                }
+            }
+            @media screen and (max-width: 851px){
+                .enter{
+                    margin-right: 00px;
+            
+                }  
+            }
+        }
     }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "ventagamer-sessarego-entregar",
+  "name": "Proyecto-JavaScript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xLuchi7/VentaGamer-Sessarego.git"
+    "url": "git+https://github.com/xLuchi7/Proyecto-JavaScript.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xLuchi7/VentaGamer-Sessarego/issues"
+    "url": "https://github.com/xLuchi7/Proyecto-JavaScript/issues"
   },
-  "homepage": "https://github.com/xLuchi7/VentaGamer-Sessarego#readme",
+  "homepage": "https://github.com/xLuchi7/Proyecto-JavaScript#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"

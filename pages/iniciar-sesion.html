@@ -9,42 +9,59 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-    <title>Iniciar Sesion en Venta Gamer</title>
-    <meta name="description" content="Inicia sesion en Venta Gamer para comprar productos a precios increibles">
-    <meta name="keywords" content="venta, venta gamer, productos, venta de productos, envios, envios gratis, argentina, comprar, comprar productos, iniciar sesion">
-    <meta property="og:type" content="E-commerce">
-    <meta property="og:title" content="Iniciar Sesion en Venta Gamer">
-    <meta property="og.url" content="https://ventagamer.netlify.app/pages/iniciar-sesion.html">
-    <meta property="og:description" content="Inicia sesion en Venta Gamer para comprar productos a precios increibles">
+    <title>Inicia Sesion en Learn 2 Code</title>
+    <meta name="description" content="Aprende a programar con Lean 2 Code! Cursos de programacion a precios Increibles!">
+    <meta name="keywords" content="programacion, programar, code, coding, venta de cursos, cursos, cursos online, cursos de programacion, Javascript, Java, ReactJS, HTML, CSS, C++, Python">
+    <meta property="og:type" content="Cursos Online">
+    <meta property="og:title" content="Inicia Sesion en Learn 2 Code">
+    <meta property="og.url" content="https://ventagamer.netlify.app/index.html">
+    <meta property="og:description" content="Aprende a programar con Lean 2 Code! Cursos de programacion a precios Increibles!">
 </head>
 <body>
     <!--Titulo/voler al inicio-->
-    <header class="color">
-        <nav class="volver-inicio">
-            <a href="../index.html"><h1 class="fuente animate__animated animate__zoomInUp">VENTA GAMER</h1></a>
+    <header>
+        <nav id="header-iniciar" class="volver-inicio">
+            <a href="../index.html"><h1 id="titulo-iniciar" class="fuente animate__animated animate__zoomInUp">LEARN 2 CODE</h1></a>
         </nav>
     </header>
     <!--Iniciar Sesion-->
-    <main class="color">
-        <div class="div-inicio-sesion">
-            <h2 class="iniciar-texto animate__animated animate__rotateInDownRight">Inicio de Sesion en la cuenta de Venta Gamer</h2>
-            <div class="inicio-card">
-                <p class="correo animate__animated animate__rotateInDownRight UnPunDos">Correo electronico</p>
-                <input class="barra-correo animate__animated animate__rotateInDownRight UnPunCua" type="email" name="email" placeholder="ejemplo@gmail.com">
-                <p class="contra animate__animated animate__rotateInDownRight UnPunSeis">Contraseña</p>
-                <input class="barra-correo animate__animated animate__rotateInDownRight UnPunOch" type="password" name="Contraseña" placeholder="">
-                <div class="enter animate__animated animate__rotateInDownRight DosSeg">
-                    <a href=""><p>Iniciar Sesion</p></a>
+    <main>
+        <div id="main-iniciar" class="div-inicio-sesion">
+            <h2 id="h2-iniciar" class="iniciar-texto animate__animated animate__rotateInDownRight">Inicio de Sesion en la cuenta de Learn 2 Code</h2>
+            <form action="" id="formulario">
+                <div class="inicio-card">
+                    <p id="correo-iniciar" class="correo animate__animated animate__rotateInDownRight UnPunDos">Correo electronico</p>
+                    <!--Aca hay muchas cosas que use para validar-->
+                    <div class="derecho">
+                        <input id="mail-iniciar" class="barra-correo animate__animated          animate__rotateInDownRight UnPunCua" type="text" name="email"   placeholder="ejemplo@gmail.com">
+                        <img class="check" id="check" src="../img/check.png" alt="checkmark">
+                        <img class="cross" id="cross" src="../img/cross.png" alt="crossmark">
+                    </div>
+                    <p class="bien" id="valid">Direccion de correo electronico valida</p>
+                    <p class="mal" id="no-valid">Ingresa un correo electronico valido</p>
+                    <p id="contra-iniciar" class="contra animate__animated animate__rotateInDownRight UnPunSeis">Contraseña</p>
+                    <div class="derecho">
+                        <input id="contraa-iniciar" class="barra-correo animate__animated animate__rotateInDownRight UnPunOch" type="password" name="Contraseña" placeholder="">
+                        <img class="check" id="checkk" src="../img/check.png" alt="checkmark">
+                        <img class="cross" id="crosss" src="../img/cross.png" alt="crossmark">
+                    </div>
+                    <p class="bien" id="contra-valid">Contraseña valida</p>
+                    <p class="mal" id="contra-no-valid">Caracteres insuficientes (5 min)</p>
+                    <button class="enter animate__animated animate__rotateInDownRight DosCua" type="submit">Iniciar Sesion</button>  
                 </div>
-            </div>
+            </form>
         </div>
     </main>
-    <footer>  
+    <footer>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../JavaScript2.js"></script>
 
 </body>
 </html>

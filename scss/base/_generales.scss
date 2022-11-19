@@ -48,3 +48,117 @@
 .white{
     color: white;
 }
+.gris-iniciar{
+    background-color: rgb(41, 37, 37);
+}
+.blanco-iniciar{
+    background-color: white;
+}
+.hola{
+    color: white;
+}
+.chau{
+    color: black;
+}
+.cambiar-idioma{
+    height: 50px;
+    width: 50px;
+}
+.check{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 4px;
+    display: none;
+}
+.cross{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 4px;
+    display: none;
+}
+.bien{
+    color: rgb(7, 184, 7);
+    font-style: italic;
+    display: none;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.mal{
+    color: red;
+    font-style: italic;
+    display: none;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.alerta{
+    text-decoration: none;
+    color: white;
+}
+.alerta:hover{
+    color: white;
+}
+/*#contra-valid{
+    color: rgb(7, 184, 7);
+    font-style: italic;
+    display: none;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+#contra-no-valid{
+    color: red;
+    font-style: italic;
+    display: none;
+    margin-top: 5px;
+    margin-left: 3px;
+}*/
+.derecho{
+    //width: 450px;
+    display: flex;
+    flex-direction: row;
+}
+#cerrar{
+    color: red;
+}
+#cerrar:hover{
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+#cerrarr{
+    color: red;
+}
+#cerrarr:hover{
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+#mis{
+    color: black;
+}
+#mis:hover{
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+#miss{
+    color: black;
+}
+#miss:hover{
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+#nop-registrado{
+    background-color: rgb(41, 37, 37);
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+}
+#persona2{
+    display: none;
+    margin-top: 38px;
+}
+#persona{
+    margin-top: 38px;
+}
