@@ -26,6 +26,7 @@ let registro = sessionStorage.getItem("status");
 let cerrarSesion = document.getElementById("cerrar");
 let cerrarSesion2 = document.getElementById("cerrarr");
 let cantCursos = cards.length;
+let cantPorCuatro = cantCursos * 4;
 
 //no use este metodo con JSON pero lo dejo para demostrar que se como se hace
 //preferi agarrar del html con querySelectorAll y usar for. 
@@ -250,7 +251,7 @@ function renderizarColor() {
             cards[i].classList.remove("blanco-claro");
             cards[i].classList.add("gris-oscuro");
         }
-        for (let i = 0; i < 24; i++) {
+        for (let i = 0; i < cantPorCuatro; i++) {
             tituloo[i].classList.remove("black");
             tituloo[i].classList.add("white");
         }
@@ -281,7 +282,7 @@ function renderizarColor() {
             cards[i].classList.remove("gris-oscuro");
             cards[i].classList.add("blanco-claro");
         }
-        for (let i = 0; i < 24; i++) {
+        for (let i = 0; i < cantPorCuatro; i++) {
             tituloo[i].classList.remove("white");
             tituloo[i].classList.add("black");
         }
@@ -317,7 +318,7 @@ function DarkWhiteMode() {
                 cards[i].classList.remove("gris-oscuro");
                 cards[i].classList.add("blanco-claro");
             }
-            for (let i = 0; i < 24; i++) {
+            for (let i = 0; i < cantPorCuatro; i++) {
                 tituloo[i].classList.remove("white");
                 tituloo[i].classList.add("black");
             }
@@ -357,7 +358,7 @@ function DarkWhiteMode() {
                 cards[i].classList.remove("blanco-claro");
                 cards[i].classList.add("gris-oscuro");
             }
-            for (let i = 0; i < 24; i++) {
+            for (let i = 0; i < cantPorCuatro; i++) {
                 tituloo[i].classList.remove("black");
                 tituloo[i].classList.add("white");
             }
